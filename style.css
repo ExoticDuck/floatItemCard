@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(188, 238, 240);
+}
+
+
+.cardWrap {
+    margin: 200px auto;
+    width: 920px;
+    height: 340px;
+    background-color: #fff;
+    box-shadow: 0 0 5px 2px;
+}
+.pic img {
+    width: 460px;
+    padding: 20px 20px 20px 20px;
+}
+.pic {
+    width: 50%;
+    /*outline: 2px solid black;*/
+    float: left;
+}
+.info {
+    /* outline: 2px solid black; */
+    width: 50%;
+    float: right;
+}
+
+.info h2 {
+    font-size: 30px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.info h3 {
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.right {
+    float: right;
+}
+
+pre {
+    padding: 10px 15px 10px 15px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.priceWrap {
+    font-size: 30px;
+    font-family: 'Fjalla One', sans-serif;
+}
+.price {
+    float: left;
+    margin-left: 15px;
+}
+
+.priceWrap button {
+    background-color: rgb(98, 233, 98);
+    width: 120px;
+    height: 30px;
+    border-radius: 7px;
+    float: right;
+    margin-right: 15px;
+    font-size: 25px;
+    color: white;
+}
